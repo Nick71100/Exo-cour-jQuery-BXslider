@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo Caroussel jQuery</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $(".slider").bxSlider();
+        });
+    </script>
+
+</head>
+<body>
+    <header>
+        <h1>Plugin jQuery BX Slider</h1>
+        <p>Caroussel d'images avec le plugin jQuery Bx slider</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bx Slider Caroussel</h2>
+            <div class="slider">
+                <div><img src="./assets/ressources/hollywood1.jpg" alt="hollywood1"></div>
+                <div><img src="./assets/ressources/hollywood2.jpg" alt="hollywood2"></div>
+                <div><img src="./assets/ressources/hollywood3.jpg" alt="hollywood3"></div>
+                <div><img src="./assets/ressources/hollywood4.jpg" alt="hollywood4"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="./assets/ressources/images/logo-3wa.png" alt="Propriété de la 3W Academy">
+        <p>
+            Ce matériel pédagogique est la propriété de la <a href="#">3W Academy</a>. Cet exercice a été réalisé par <a href="#">Catherine Denos</a>.
+        </p>
+    </footer>
+</body>
+</html>
