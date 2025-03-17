@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exo Caroussel jQuery</title>
-    <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
 
     <script>
         $(document).ready(function(){
-          $(".slider").bxSlider();
+          $(".slider").bxSlider({
+            mode: 'fade',
+            captions: true,
+          });
         });
     </script>
 
@@ -26,10 +29,10 @@
         <section>
             <h2>Bx Slider Caroussel</h2>
             <div class="slider">
-                <div><img src="./assets/ressources/hollywood1.jpg" alt="hollywood1"></div>
-                <div><img src="./assets/ressources/hollywood2.jpg" alt="hollywood2"></div>
-                <div><img src="./assets/ressources/hollywood3.jpg" alt="hollywood3"></div>
-                <div><img src="./assets/ressources/hollywood4.jpg" alt="hollywood4"></div>
+                <div><img src="./assets/ressources/hollywood1.jpg" alt="hollywood1" title="Hollywood 1"></div>
+                <div><img src="./assets/ressources/hollywood2.jpg" alt="hollywood2" title="Hollywood 2"></div>
+                <div><img src="./assets/ressources/hollywood3.jpg" alt="hollywood3" title="Hollywood 3"></div>
+                <div><img src="./assets/ressources/hollywood4.jpg" alt="hollywood4" title="Hollywood 4"></div>
             </div>
         </section>
     </main>

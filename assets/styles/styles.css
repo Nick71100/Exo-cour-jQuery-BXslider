@@ -35,6 +35,13 @@ section {
     padding: 15px;
 }
 
+.bx-wrapper .bx-caption span {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffffff80;
+}
 
 footer p {
     color: #fff;
